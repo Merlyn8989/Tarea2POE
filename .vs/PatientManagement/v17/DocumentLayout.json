@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\merly\\source\\repos\\PatientManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB366A-2B88-46CD-9A89-9C3E92DE80B0}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\merly\\source\\repos\\patientmanagement\\presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB366A-2B88-46CD-9A89-9C3E92DE80B0}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB366A-2B88-46CD-9A89-9C3E92DE80B0}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\merly\\source\\repos\\PatientManagement\\presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{54FB366A-2B88-46CD-9A89-9C3E92DE80B0}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\merly\\source\\repos\\patientmanagement\\dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74BD8A3-5A63-4D51-8601-F88270223D79}|CommonLayer\\CommonLayer.csproj|c:\\users\\merly\\source\\repos\\patientmanagement\\commonlayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74BD8A3-5A63-4D51-8601-F88270223D79}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E07430-44A7-4216-86DB-4FA118B6BC74}|BussisnesLayer\\BussisnesLayer.csproj|c:\\users\\merly\\source\\repos\\patientmanagement\\bussisneslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E07430-44A7-4216-86DB-4FA118B6BC74}|BussisnesLayer\\BussisnesLayer.csproj|solutionrelative:bussisneslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\PatientManagement\\PresentationLayer\\Form1.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Form1.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\PresentationLayer\\Form1.cs",
+              "RelativeToolTip": "PresentationLayer\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:31:08.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\PatientManagement\\PresentationLayer\\Form1.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Form1.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\PresentationLayer\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:25:25.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\PatientManagement\\DataAccessLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\DataAccessLayer\\Class1.cs",
+              "RelativeToolTip": "DataAccessLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:24:20.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\PatientManagement\\CommonLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\CommonLayer\\Class1.cs",
+              "RelativeToolTip": "CommonLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:23:38.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\PatientManagement\\BussisnesLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "BussisnesLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\BussisnesLayer\\Class1.cs",
+              "RelativeToolTip": "BussisnesLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:23:10.089Z"
             }
           ]
         }
