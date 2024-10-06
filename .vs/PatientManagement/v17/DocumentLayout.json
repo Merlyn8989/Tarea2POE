@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "PresentationLayer\\Form1.cs",
               "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\PresentationLayer\\Form1.cs",
               "RelativeToolTip": "PresentationLayer\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T17:31:08.133Z",
               "EditorCaption": ""
@@ -70,7 +70,8 @@
               "RelativeToolTip": "DataAccessLayer\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:24:20.653Z"
+              "WhenOpened": "2024-10-04T17:24:20.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,7 +83,8 @@
               "RelativeToolTip": "CommonLayer\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:23:38.424Z"
+              "WhenOpened": "2024-10-04T17:23:38.424Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,7 +96,8 @@
               "RelativeToolTip": "BussisnesLayer\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:23:10.089Z"
+              "WhenOpened": "2024-10-04T17:23:10.089Z",
+              "EditorCaption": ""
             }
           ]
         }
