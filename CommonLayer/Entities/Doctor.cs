@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CommonLayer.Entities
 {
-    internal class Doctor
+    public class Doctor
     {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string Specialty { get; set; }
     }
 }
