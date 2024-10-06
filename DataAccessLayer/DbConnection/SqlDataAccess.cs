@@ -14,7 +14,7 @@ namespace DataAccessLayer.DbConnection
 
         public SqlDataAccess()
         {
-            _connectionString = "Data Source=MERLYNRAJO\\SQLEXPRESS;Initial Catalog=GestionPacientes;Integrated Security=True;Encrypt=False";
+            _connectionString = "Data Source=MERLYNRAJO\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Encrypt=False";
         }
 
         public SqlConnection GetConnection() {
