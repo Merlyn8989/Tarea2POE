@@ -1,6 +1,6 @@
 using PresentationLayer.Forms;
 
-namespace PresentationLayer
+namespace PatientsManager
 {
     internal static class Program
     {
