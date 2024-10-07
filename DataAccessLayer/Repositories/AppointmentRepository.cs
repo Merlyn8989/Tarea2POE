@@ -25,7 +25,7 @@ namespace DataAccessLayer.Repositories
 
             using (var connection = _dbConnection.GetConnection())
             {
-                string query = @"SELECT Id, CONCAT(firstName, '', lastName) AS Doctors FROM Doctors";
+                string query = @"SELECT Id, firstName AS Doctors FROM Doctors";
 
                 using (var slqCommand = new SqlCommand(query, connection))
                 {
@@ -68,7 +68,7 @@ namespace DataAccessLayer.Repositories
                                     a.diagnosis,
                                     a.treatment,
                                     CONCAT(p.firstName, ' ', p.lastName) AS Patients,
-                                    CONCAT(d.firstName, ' ', d.lastName) AS Doctors,
+                                    d.firstName AS Doctors,
                                 FROM Appointments AS a
                                 INNER JOIN Patients AS p ON a.patientId = p.id
                                 INNER JOIN Doctors AS d ON a.doctorId = d.id";

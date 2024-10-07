@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\merly\\source\\repos\\patientmanagement\\dataaccesslayer\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F74BD8A3-5A63-4D51-8601-F88270223D79}|CommonLayer\\CommonLayer.csproj|c:\\users\\merly\\source\\repos\\patientmanagement\\commonlayer\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F74BD8A3-5A63-4D51-8601-F88270223D79}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\merly\\source\\repos\\patientmanagement\\dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,40 +24,14 @@
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\AppointmentRepository.cs",
               "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\DataAccessLayer\\Repositories\\AppointmentRepository.cs",
               "RelativeToolTip": "DataAccessLayer\\Repositories\\AppointmentRepository.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAcwJgAAAAAAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAuwFQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T15:51:10.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SqlDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\PatientManagement\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "RelativeToolTip": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T15:46:49.441Z",
+              "WhenOpened": "2024-10-06T19:54:35.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\PatientManagement\\CommonLayer\\Entities\\Appointment.cs",
-              "RelativeDocumentMoniker": "CommonLayer\\Entities\\Appointment.cs",
-              "ToolTip": "C:\\Users\\merly\\source\\repos\\PatientManagement\\CommonLayer\\Entities\\Appointment.cs",
-              "RelativeToolTip": "CommonLayer\\Entities\\Appointment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T14:28:39.956Z",
-              "EditorCaption": ""
             }
           ]
         }
