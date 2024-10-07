@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ProjectReference Include="..\CommonLayer\CommonLayer.csproj" />
+>>>>>>> b2e435bee5da8896dfbe925a68cb380a7b0cd9b6
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
   </ItemGroup>
 
