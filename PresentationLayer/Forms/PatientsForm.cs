@@ -15,6 +15,26 @@ namespace PresentationLayer.Forms
         public PatientsForm()
         {
             InitializeComponent();
+
+        }
+
+        private void patientAddButton_Click(object sender, EventArgs e)
+        {
+            var formModal = new PatientModalForm();
+
+            formModal.editMode = false;
+
+            formModal.ShowDialog(this);
+
+        }
+
+        private void patientUpdateButton_Click(object sender, EventArgs e)
+        {
+            var formModal = new PatientModalForm();
+
+            formModal.editMode = true;
+
+            formModal.ShowDialog(this);
         }
     }
 }
