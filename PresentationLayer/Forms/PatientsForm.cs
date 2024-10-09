@@ -7,15 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BussisnesLayer.Services;
 
 namespace PresentationLayer.Forms
 {
     public partial class PatientsForm : Form
     {
+        private PatientService _patientService;
         public PatientsForm()
         {
             InitializeComponent();
-
+            _patientService = new PatientService();
+            LoadDoctorsData();
+            
+        }
+        private void LoadDoctorsData()
+        {
+            patientsDataGridView.DataSource = _patientService.GetAllPatients();
         }
 
         private void patientAddButton_Click(object sender, EventArgs e)

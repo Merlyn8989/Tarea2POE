@@ -56,10 +56,10 @@
             patientsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             patientsDataGridView.EnableHeadersVisualStyles = false;
             patientsDataGridView.GridColor = Color.Teal;
-            patientsDataGridView.Location = new Point(27, 149);
+            patientsDataGridView.Location = new Point(68, 149);
             patientsDataGridView.Name = "patientsDataGridView";
             patientsDataGridView.RowHeadersWidth = 51;
-            patientsDataGridView.Size = new Size(755, 545);
+            patientsDataGridView.Size = new Size(674, 545);
             patientsDataGridView.TabIndex = 6;
             // 
             // patientAddButton
