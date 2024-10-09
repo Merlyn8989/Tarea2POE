@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panel1 = new Panel();
             doctorsTitleLabel = new Label();
             doctorDeleteButton = new Button();
@@ -96,6 +96,7 @@
             doctorAddButton.TabIndex = 12;
             doctorAddButton.Text = "Nuevo";
             doctorAddButton.UseVisualStyleBackColor = false;
+            doctorAddButton.Click += doctorAddButton_Click_1;
             // 
             // doctorsDataGridView
             // 
@@ -103,14 +104,14 @@
             doctorsDataGridView.BorderStyle = BorderStyle.None;
             doctorsDataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
             doctorsDataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.Teal;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle2.SelectionBackColor = Color.CadetBlue;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.Window;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.Teal;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = Color.CadetBlue;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Window;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             doctorsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             doctorsDataGridView.EnableHeadersVisualStyles = false;
             doctorsDataGridView.GridColor = Color.Teal;
@@ -144,7 +145,7 @@
         private Label doctorsTitleLabel;
         private Button doctorDeleteButton;
         private Button doctorUpdateButton;
-        private Button doctorAddButton;
         private DataGridView doctorsDataGridView;
+        private Button doctorAddButton;
     }
 }

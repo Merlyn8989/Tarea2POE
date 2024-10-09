@@ -9,7 +9,7 @@ namespace CommonLayer.Entities
     public class Doctor
     {
         public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string Specialty { get; set; }
+        public string FirstName { get; set; } = "Sin nombre";
+        public string Specialty { get; set; } = "Sin especialidad";
     }
 }
