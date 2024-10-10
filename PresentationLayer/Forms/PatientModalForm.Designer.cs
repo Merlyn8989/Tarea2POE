@@ -30,15 +30,17 @@
         {
             patientCancelButton = new Button();
             patientSaveButton = new Button();
-            nameLabel = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            namePatientLabel = new Label();
+            namePatientTextBox = new TextBox();
+            lastNamePatientTextBox = new TextBox();
             lastNameLabel = new Label();
-            textBox3 = new TextBox();
-            label1 = new Label();
-            textBox4 = new TextBox();
-            label2 = new Label();
+            dateOfBirthPatientTextBox = new TextBox();
+            dateOfBirthPatientLabel = new Label();
+            genderPatientTextBox = new TextBox();
+            genderPatientLabel = new Label();
             titleLabel = new Label();
+            idPatientTextBox = new TextBox();
+            idPatientLabel = new Label();
             SuspendLayout();
             // 
             // patientCancelButton
@@ -46,7 +48,7 @@
             patientCancelButton.BackColor = SystemColors.MenuBar;
             patientCancelButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             patientCancelButton.ForeColor = Color.Teal;
-            patientCancelButton.Location = new Point(308, 338);
+            patientCancelButton.Location = new Point(308, 368);
             patientCancelButton.Name = "patientCancelButton";
             patientCancelButton.Size = new Size(139, 53);
             patientCancelButton.TabIndex = 8;
@@ -58,88 +60,89 @@
             patientSaveButton.BackColor = SystemColors.MenuBar;
             patientSaveButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             patientSaveButton.ForeColor = Color.Teal;
-            patientSaveButton.Location = new Point(139, 338);
+            patientSaveButton.Location = new Point(139, 368);
             patientSaveButton.Name = "patientSaveButton";
             patientSaveButton.Size = new Size(122, 53);
             patientSaveButton.TabIndex = 9;
             patientSaveButton.Text = "Guardar";
             patientSaveButton.UseVisualStyleBackColor = false;
+            patientSaveButton.Click += patientSaveButton_Click;
             // 
-            // nameLabel
+            // namePatientLabel
             // 
-            nameLabel.AutoSize = true;
-            nameLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            nameLabel.ForeColor = SystemColors.Window;
-            nameLabel.Location = new Point(173, 85);
-            nameLabel.Name = "nameLabel";
-            nameLabel.Size = new Size(89, 28);
-            nameLabel.TabIndex = 10;
-            nameLabel.Text = "Nombre:";
+            namePatientLabel.AutoSize = true;
+            namePatientLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            namePatientLabel.ForeColor = SystemColors.Window;
+            namePatientLabel.Location = new Point(173, 129);
+            namePatientLabel.Name = "namePatientLabel";
+            namePatientLabel.Size = new Size(89, 28);
+            namePatientLabel.TabIndex = 10;
+            namePatientLabel.Text = "Nombre:";
             // 
-            // textBox1
+            // namePatientTextBox
             // 
-            textBox1.BackColor = SystemColors.MenuBar;
-            textBox1.Location = new Point(280, 85);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(167, 27);
-            textBox1.TabIndex = 11;
+            namePatientTextBox.BackColor = SystemColors.MenuBar;
+            namePatientTextBox.Location = new Point(280, 129);
+            namePatientTextBox.Name = "namePatientTextBox";
+            namePatientTextBox.Size = new Size(167, 27);
+            namePatientTextBox.TabIndex = 11;
             // 
-            // textBox2
+            // lastNamePatientTextBox
             // 
-            textBox2.BackColor = SystemColors.MenuBar;
-            textBox2.Location = new Point(280, 142);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(167, 27);
-            textBox2.TabIndex = 13;
+            lastNamePatientTextBox.BackColor = SystemColors.MenuBar;
+            lastNamePatientTextBox.Location = new Point(280, 186);
+            lastNamePatientTextBox.Name = "lastNamePatientTextBox";
+            lastNamePatientTextBox.Size = new Size(167, 27);
+            lastNamePatientTextBox.TabIndex = 13;
             // 
             // lastNameLabel
             // 
             lastNameLabel.AutoSize = true;
             lastNameLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lastNameLabel.ForeColor = SystemColors.Window;
-            lastNameLabel.Location = new Point(161, 142);
+            lastNameLabel.Location = new Point(171, 185);
             lastNameLabel.Name = "lastNameLabel";
             lastNameLabel.Size = new Size(90, 28);
             lastNameLabel.TabIndex = 12;
             lastNameLabel.Text = "Apellido:";
             // 
-            // textBox3
+            // dateOfBirthPatientTextBox
             // 
-            textBox3.BackColor = SystemColors.MenuBar;
-            textBox3.Location = new Point(280, 203);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(167, 27);
-            textBox3.TabIndex = 15;
+            dateOfBirthPatientTextBox.BackColor = SystemColors.MenuBar;
+            dateOfBirthPatientTextBox.Location = new Point(280, 247);
+            dateOfBirthPatientTextBox.Name = "dateOfBirthPatientTextBox";
+            dateOfBirthPatientTextBox.Size = new Size(167, 27);
+            dateOfBirthPatientTextBox.TabIndex = 15;
             // 
-            // label1
+            // dateOfBirthPatientLabel
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.Window;
-            label1.Location = new Point(66, 203);
-            label1.Name = "label1";
-            label1.Size = new Size(195, 28);
-            label1.TabIndex = 14;
-            label1.Text = "Fecha de nacimiento:";
+            dateOfBirthPatientLabel.AutoSize = true;
+            dateOfBirthPatientLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dateOfBirthPatientLabel.ForeColor = SystemColors.Window;
+            dateOfBirthPatientLabel.Location = new Point(66, 246);
+            dateOfBirthPatientLabel.Name = "dateOfBirthPatientLabel";
+            dateOfBirthPatientLabel.Size = new Size(195, 28);
+            dateOfBirthPatientLabel.TabIndex = 14;
+            dateOfBirthPatientLabel.Text = "Fecha de nacimiento:";
             // 
-            // textBox4
+            // genderPatientTextBox
             // 
-            textBox4.BackColor = SystemColors.MenuBar;
-            textBox4.Location = new Point(280, 256);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(167, 27);
-            textBox4.TabIndex = 17;
+            genderPatientTextBox.BackColor = SystemColors.MenuBar;
+            genderPatientTextBox.Location = new Point(280, 300);
+            genderPatientTextBox.Name = "genderPatientTextBox";
+            genderPatientTextBox.Size = new Size(167, 27);
+            genderPatientTextBox.TabIndex = 17;
             // 
-            // label2
+            // genderPatientLabel
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = SystemColors.Window;
-            label2.Location = new Point(178, 252);
-            label2.Name = "label2";
-            label2.Size = new Size(80, 28);
-            label2.TabIndex = 16;
-            label2.Text = "Género:";
+            genderPatientLabel.AutoSize = true;
+            genderPatientLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            genderPatientLabel.ForeColor = SystemColors.Window;
+            genderPatientLabel.Location = new Point(178, 296);
+            genderPatientLabel.Name = "genderPatientLabel";
+            genderPatientLabel.Size = new Size(80, 28);
+            genderPatientLabel.TabIndex = 16;
+            genderPatientLabel.Text = "Género:";
             // 
             // titleLabel
             // 
@@ -147,26 +150,47 @@
             titleLabel.BackColor = Color.FromArgb(21, 108, 108);
             titleLabel.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             titleLabel.ForeColor = SystemColors.MenuBar;
-            titleLabel.Location = new Point(178, 20);
+            titleLabel.Location = new Point(179, 19);
             titleLabel.Name = "titleLabel";
             titleLabel.Size = new Size(0, 38);
             titleLabel.TabIndex = 18;
+            // 
+            // idPatientTextBox
+            // 
+            idPatientTextBox.BackColor = SystemColors.MenuBar;
+            idPatientTextBox.Location = new Point(280, 75);
+            idPatientTextBox.Name = "idPatientTextBox";
+            idPatientTextBox.Size = new Size(167, 27);
+            idPatientTextBox.TabIndex = 20;
+            // 
+            // idPatientLabel
+            // 
+            idPatientLabel.AutoSize = true;
+            idPatientLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            idPatientLabel.ForeColor = SystemColors.Window;
+            idPatientLabel.Location = new Point(225, 74);
+            idPatientLabel.Name = "idPatientLabel";
+            idPatientLabel.Size = new Size(33, 28);
+            idPatientLabel.TabIndex = 19;
+            idPatientLabel.Text = "Id:";
             // 
             // PatientModalForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(21, 108, 108);
-            ClientSize = new Size(571, 450);
+            ClientSize = new Size(571, 458);
+            Controls.Add(idPatientTextBox);
+            Controls.Add(idPatientLabel);
             Controls.Add(titleLabel);
-            Controls.Add(textBox4);
-            Controls.Add(label2);
-            Controls.Add(textBox3);
-            Controls.Add(label1);
-            Controls.Add(textBox2);
+            Controls.Add(genderPatientTextBox);
+            Controls.Add(genderPatientLabel);
+            Controls.Add(dateOfBirthPatientTextBox);
+            Controls.Add(dateOfBirthPatientLabel);
+            Controls.Add(lastNamePatientTextBox);
             Controls.Add(lastNameLabel);
-            Controls.Add(textBox1);
-            Controls.Add(nameLabel);
+            Controls.Add(namePatientTextBox);
+            Controls.Add(namePatientLabel);
             Controls.Add(patientSaveButton);
             Controls.Add(patientCancelButton);
             ForeColor = SystemColors.MenuBar;
@@ -180,14 +204,16 @@
 
         private Button patientCancelButton;
         private Button patientSaveButton;
-        private Label nameLabel;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private Label namePatientLabel;
         private Label lastNameLabel;
-        private TextBox textBox3;
-        private Label label1;
-        private TextBox textBox4;
-        private Label label2;
+        private Label genderPatientLabel;
         private Label titleLabel;
+        public Label dateOfBirthPatientLabel;
+        public TextBox namePatientTextBox;
+        public TextBox lastNamePatientTextBox;
+        public TextBox dateOfBirthPatientTextBox;
+        public TextBox genderPatientTextBox;
+        public TextBox idPatientTextBox;
+        private Label idPatientLabel;
     }
 }
