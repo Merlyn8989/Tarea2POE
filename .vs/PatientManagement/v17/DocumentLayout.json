@@ -3,42 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\presentationlayer\\forms\\doctorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\doctorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\presentationlayer\\forms\\patientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\patientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\presentationlayer\\forms\\doctorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\doctorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E07430-44A7-4216-86DB-4FA118B6BC74}|BussisnesLayer\\BussisnesLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\bussisneslayer\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E07430-44A7-4216-86DB-4FA118B6BC74}|BussisnesLayer\\BussisnesLayer.csproj|solutionrelative:bussisneslayer\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\presentationlayer\\forms\\doctormodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\doctormodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\presentationlayer\\forms\\patientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\patientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-=======
-      "AbsoluteMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\merly\\source\\repos\\merlyn8989\\tarea2poe\\dataaccesslayer\\repositories\\patientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\patientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 7079224374dc3b80a4e63cf13c4fab01e03f612b
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\presentationlayer\\forms\\doctorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\doctorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\presentationlayer\\forms\\patientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\patientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F74BD8A3-5A63-4D51-8601-F88270223D79}|CommonLayer\\CommonLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\commonlayer\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74BD8A3-5A63-4D51-8601-F88270223D79}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{33E07430-44A7-4216-86DB-4FA118B6BC74}|BussisnesLayer\\BussisnesLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\bussisneslayer\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E07430-44A7-4216-86DB-4FA118B6BC74}|BussisnesLayer\\BussisnesLayer.csproj|solutionrelative:bussisneslayer\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\presentationlayer\\forms\\patientmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\patientmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\merly\\source\\repos\\merlyn8989\\tarea2poe\\presentationlayer\\forms\\patientmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\tarea2poe\\presentationlayer\\forms\\patientmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\patientmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 7079224374dc3b80a4e63cf13c4fab01e03f612b
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\presentationlayer\\forms\\doctormodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\doctormodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\presentationlayer\\forms\\patientmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\patientmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,55 +50,28 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 5,
-              "Title": "PatientService.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\BussisnesLayer\\Services\\PatientService.cs",
-              "RelativeDocumentMoniker": "BussisnesLayer\\Services\\PatientService.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\BussisnesLayer\\Services\\PatientService.cs",
-              "RelativeToolTip": "BussisnesLayer\\Services\\PatientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:49:29.588Z",
-=======
-              "DocumentIndex": 0,
-              "Title": "PatientsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\DataAccessLayer\\Repositories\\PatientsRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\PatientsRepository.cs",
-              "ToolTip": "C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\DataAccessLayer\\Repositories\\PatientsRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\PatientsRepository.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAuwE8AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:48:21.281Z",
->>>>>>> 7079224374dc3b80a4e63cf13c4fab01e03f612b
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
-              "Title": "DoctorService.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\BussisnesLayer\\Services\\DoctorService.cs",
-              "RelativeDocumentMoniker": "BussisnesLayer\\Services\\DoctorService.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\BussisnesLayer\\Services\\DoctorService.cs",
-              "RelativeToolTip": "BussisnesLayer\\Services\\DoctorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:49:26.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DoctorsForm.cs",
               "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorsForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Forms\\DoctorsForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorsForm.cs",
-              "RelativeToolTip": "PresentationLayer\\Forms\\DoctorsForm.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAiwC8AAAAmAAAA",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorsForm.cs*",
+              "RelativeToolTip": "PresentationLayer\\Forms\\DoctorsForm.cs*",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwD8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:27:14.637Z",
+              "WhenOpened": "2024-10-10T06:28:19.635Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientsForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientsForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\PatientsForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientsForm.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "PresentationLayer\\Forms\\PatientsForm.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:15:56.843Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -112,73 +79,74 @@
               "Title": "DoctorsForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorsForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Forms\\DoctorsForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorsForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Forms\\DoctorsForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorsForm.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "PresentationLayer\\Forms\\DoctorsForm.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:26:56.805Z",
+              "WhenOpened": "2024-10-10T06:15:03.549Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PatientsForm.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientsForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\PatientsForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientsForm.cs",
-              "RelativeToolTip": "PresentationLayer\\Forms\\PatientsForm.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\CommonLayer\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Entities\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\CommonLayer\\Entities\\Doctor.cs",
+              "RelativeToolTip": "CommonLayer\\Entities\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:27:08.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PatientsForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientsForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\PatientsForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientsForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Forms\\PatientsForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:27:01.554Z",
-              "EditorCaption": " [Dise\u00F1o]"
-=======
-              "DocumentIndex": 3,
-              "Title": "PatientModalForm.cs",
-              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\PresentationLayer\\Forms\\PatientModalForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\PatientModalForm.cs",
-              "ToolTip": "C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\PresentationLayer\\Forms\\PatientModalForm.cs",
-              "RelativeToolTip": "PresentationLayer\\Forms\\PatientModalForm.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAApwCkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T18:36:03.794Z",
+              "WhenOpened": "2024-10-10T06:09:56.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PatientModalForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\PresentationLayer\\Forms\\PatientModalForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\PatientModalForm.cs",
-              "ToolTip": "C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\PresentationLayer\\Forms\\PatientModalForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Forms\\PatientModalForm.cs [Dise\u00F1o]",
+              "Title": "DoctorModalForm.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorModalForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\DoctorModalForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorModalForm.cs",
+              "RelativeToolTip": "PresentationLayer\\Forms\\DoctorModalForm.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwDIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T18:10:19.824Z",
+              "WhenOpened": "2024-10-10T04:55:42.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientModalForm.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientModalForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\PatientModalForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientModalForm.cs",
+              "RelativeToolTip": "PresentationLayer\\Forms\\PatientModalForm.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:55:48.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoctorModalForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorModalForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\DoctorModalForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\DoctorModalForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\Forms\\DoctorModalForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:11:21.787Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PatientsForm.cs",
-              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\PresentationLayer\\Forms\\PatientsForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\PatientsForm.cs",
-              "ToolTip": "C:\\Users\\merly\\source\\repos\\Merlyn8989\\Tarea2POE\\PresentationLayer\\Forms\\PatientsForm.cs",
-              "RelativeToolTip": "PresentationLayer\\Forms\\PatientsForm.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAIAwwDsAAAAwAAAA",
+              "DocumentIndex": 7,
+              "Title": "PatientModalForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientModalForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\PatientModalForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\Tarea2POE\\PresentationLayer\\Forms\\PatientModalForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\Forms\\PatientModalForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T19:17:35.759Z",
-              "EditorCaption": ""
->>>>>>> 7079224374dc3b80a4e63cf13c4fab01e03f612b
+              "WhenOpened": "2024-10-10T05:19:07.648Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

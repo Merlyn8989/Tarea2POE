@@ -71,7 +71,7 @@
             patientAddButton.Name = "patientAddButton";
             patientAddButton.Size = new Size(223, 53);
             patientAddButton.TabIndex = 7;
-            patientAddButton.Text = "Nuevo";
+            patientAddButton.Text = "New";
             patientAddButton.UseVisualStyleBackColor = false;
             patientAddButton.Click += patientAddButton_Click;
             // 

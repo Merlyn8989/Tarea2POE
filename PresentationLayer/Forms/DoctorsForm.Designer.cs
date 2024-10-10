@@ -97,7 +97,7 @@
             doctorAddButton.Name = "doctorAddButton";
             doctorAddButton.Size = new Size(223, 53);
             doctorAddButton.TabIndex = 12;
-            doctorAddButton.Text = "Nuevo";
+            doctorAddButton.Text = "New";
             doctorAddButton.UseVisualStyleBackColor = false;
             doctorAddButton.Click += doctorAddButton_Click_1;
             // 
