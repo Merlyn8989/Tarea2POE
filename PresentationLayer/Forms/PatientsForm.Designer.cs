@@ -99,6 +99,7 @@
             patientDeleteButton.TabIndex = 9;
             patientDeleteButton.Text = "Delete";
             patientDeleteButton.UseVisualStyleBackColor = false;
+            patientDeleteButton.Click += patientDeleteButton_Click;
             // 
             // panel1
             // 
@@ -141,11 +142,11 @@
         }
 
         #endregion
-        private DataGridView patientsDataGridView;
         private Button patientAddButton;
         private Button patientUpdateButton;
         private Button patientDeleteButton;
         private Panel panel1;
         private Label patientsTitleLabel;
+        public DataGridView patientsDataGridView;
     }
 }

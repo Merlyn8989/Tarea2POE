@@ -26,7 +26,7 @@ namespace DataAccessLayer.Repositories
 
             using (var connection = _dbconection.GetConnection())
             {
-                string query = "SELECT id, firstName, lastName, gender FROM Patients";
+                string query = "SELECT id, firstName, lastName, dateOfBirth, gender FROM Patients";
 
                 using (var sqlCommand = new SqlCommand(query, connection))
                 {
@@ -51,10 +51,10 @@ namespace DataAccessLayer.Repositories
                 {
                     connection.Open();
 
-                    sqlCommand.Parameters.AddWithValue("@firstName", patient.firstName);
-                    sqlCommand.Parameters.AddWithValue("@lastName", patient.lastName);
-                    sqlCommand.Parameters.AddWithValue("@dateOfBirth", patient.dateOfBirth);
-                    sqlCommand.Parameters.AddWithValue("@gender", patient.gender);
+                    sqlCommand.Parameters.AddWithValue("@firstName", patient.FirstName);
+                    sqlCommand.Parameters.AddWithValue("@lastName", patient.LastName);
+                    sqlCommand.Parameters.AddWithValue("@dateOfBirth", patient.DateOfBirth);
+                    sqlCommand.Parameters.AddWithValue("@gender", patient.Gender);
 
                     sqlCommand.ExecuteNonQuery();
                 }
@@ -69,18 +69,19 @@ namespace DataAccessLayer.Repositories
                                             firstName = @firstName,
                                             lastName = @lastName,
                                             dateOfBirth = @dateOfBirth,
-                                            gender = @gender,
+                                            gender = @gender
                                             WHERE id = @id";
                 using (var sqlCommand = new SqlCommand(query, connetion))
                 {
                     connetion.Open();
 
                     sqlCommand.Parameters.AddWithValue("@id", patient.Id);
-                    sqlCommand.Parameters.AddWithValue("@firstName", patient.firstName);
-                    sqlCommand.Parameters.AddWithValue("@lastName", patient.lastName);
-                    sqlCommand.Parameters.AddWithValue("@dateOfBirth", patient.dateOfBirth);
-                    sqlCommand.Parameters.AddWithValue("@gender", patient.gender);
+                    sqlCommand.Parameters.AddWithValue("@firstName", patient.FirstName);
+                    sqlCommand.Parameters.AddWithValue("@lastName", patient.LastName);
+                    sqlCommand.Parameters.AddWithValue("@dateOfBirth", patient.DateOfBirth);
+                    sqlCommand.Parameters.AddWithValue("@gender", patient.Gender);
 
+                    sqlCommand.ExecuteNonQuery();
                 }
             }
         }
