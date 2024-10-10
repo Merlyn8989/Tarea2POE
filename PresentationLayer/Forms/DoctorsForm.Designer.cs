@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panel1 = new Panel();
             doctorsTitleLabel = new Label();
             doctorDeleteButton = new Button();
@@ -67,7 +67,7 @@
             doctorDeleteButton.BackColor = Color.FromArgb(21, 108, 108);
             doctorDeleteButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             doctorDeleteButton.ForeColor = Color.White;
-            doctorDeleteButton.Location = new Point(830, 320);
+            doctorDeleteButton.Location = new Point(805, 320);
             doctorDeleteButton.Name = "doctorDeleteButton";
             doctorDeleteButton.Size = new Size(223, 53);
             doctorDeleteButton.TabIndex = 14;
@@ -80,7 +80,7 @@
             doctorUpdateButton.BackColor = Color.FromArgb(21, 108, 108);
             doctorUpdateButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             doctorUpdateButton.ForeColor = Color.White;
-            doctorUpdateButton.Location = new Point(830, 236);
+            doctorUpdateButton.Location = new Point(805, 236);
             doctorUpdateButton.Name = "doctorUpdateButton";
             doctorUpdateButton.Size = new Size(223, 53);
             doctorUpdateButton.TabIndex = 13;
@@ -93,7 +93,7 @@
             doctorAddButton.BackColor = Color.FromArgb(21, 108, 108);
             doctorAddButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             doctorAddButton.ForeColor = Color.White;
-            doctorAddButton.Location = new Point(830, 150);
+            doctorAddButton.Location = new Point(805, 150);
             doctorAddButton.Name = "doctorAddButton";
             doctorAddButton.Size = new Size(223, 53);
             doctorAddButton.TabIndex = 12;
@@ -107,21 +107,21 @@
             doctorsDataGridView.BorderStyle = BorderStyle.None;
             doctorsDataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
             doctorsDataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.Teal;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle2.SelectionBackColor = Color.CadetBlue;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.Window;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.Teal;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = Color.CadetBlue;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Window;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             doctorsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             doctorsDataGridView.EnableHeadersVisualStyles = false;
             doctorsDataGridView.GridColor = Color.Teal;
-            doctorsDataGridView.Location = new Point(27, 150);
+            doctorsDataGridView.Location = new Point(149, 150);
             doctorsDataGridView.Name = "doctorsDataGridView";
             doctorsDataGridView.RowHeadersWidth = 51;
-            doctorsDataGridView.Size = new Size(755, 545);
+            doctorsDataGridView.Size = new Size(426, 502);
             doctorsDataGridView.TabIndex = 11;
             // 
             // DoctorsForm
