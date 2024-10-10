@@ -4,12 +4,15 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BussisnesLayer.Services;
 using CommonLayer.Entities;
 using DataAccessLayer.Repositories;
+using FluentValidation.Results;
+using PresentationLayer.Validations;
 
 namespace PresentationLayer.Forms
 {
@@ -67,20 +70,55 @@ namespace PresentationLayer.Forms
                 DateTime dateTime = DateTime.Parse(dateOfBirthPatientTextBox.Text);
                 DateOnly dateOfBirth = DateOnly.FromDateTime(dateTime);
 
-                Patient patient = new Patient()
-                {
-                    FirstName = namePatientTextBox.Text,
-                    LastName = lastNamePatientTextBox.Text,
-                    DateOfBirth = dateOfBirth,  
-                    Gender = genderPatientTextBox.Text
-                };
+                Patient patient = new Patient();
 
-                _patientService.AddPatient(patient);
+                patient.FirstName = namePatientTextBox.Text;
+                patient.LastName = lastNamePatientTextBox.Text;
+                patient.DateOfBirth = dateOfBirth;
+                patient.Gender = genderPatientTextBox.Text;
+            
+                PatientValidator patientValidator = new PatientValidator();
+                ValidationResult result = patientValidator.Validate(patient);
+
+                if (!result.IsValid)
+                {
+                    DisplayValidationErrors(result);
+                }
+                else
+                {
+                    _patientService.AddPatient(patient);
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+                    
 
             }
-            this.DialogResult = DialogResult.OK;
-            this.Close();
+            
 
+        }
+
+        private void DisplayValidationErrors(ValidationResult result)
+        {
+            validationErrorProvider.Clear();
+
+            foreach (var error in result.Errors)
+            {
+                switch (error.PropertyName)
+                {
+                    case nameof(Patient.FirstName):
+                        validationErrorProvider.SetError(namePatientTextBox, error.ErrorMessage);
+                        break;
+                    case nameof(Patient.LastName):
+                        validationErrorProvider.SetError(lastNamePatientTextBox, error.ErrorMessage);
+                        break;
+                    case nameof(Patient.DateOfBirth):
+                        validationErrorProvider.SetError(lastNamePatientTextBox, error.ErrorMessage);
+                        break;
+                    case nameof(Patient.Gender):
+                        validationErrorProvider.SetError(lastNamePatientTextBox, error.ErrorMessage);
+                        break;
+                }
+            }
         }
     }
 }

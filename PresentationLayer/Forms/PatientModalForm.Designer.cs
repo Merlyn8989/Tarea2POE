@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             patientCancelButton = new Button();
             patientSaveButton = new Button();
             namePatientLabel = new Label();
@@ -41,6 +42,8 @@
             titleLabel = new Label();
             idPatientTextBox = new TextBox();
             idPatientLabel = new Label();
+            validationErrorProvider = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)validationErrorProvider).BeginInit();
             SuspendLayout();
             // 
             // patientCancelButton
@@ -174,6 +177,10 @@
             idPatientLabel.TabIndex = 19;
             idPatientLabel.Text = "Id:";
             // 
+            // validationErrorProvider
+            // 
+            validationErrorProvider.ContainerControl = this;
+            // 
             // PatientModalForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -196,6 +203,7 @@
             ForeColor = SystemColors.MenuBar;
             Name = "PatientModalForm";
             Text = "PatientModalForm";
+            ((System.ComponentModel.ISupportInitialize)validationErrorProvider).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -215,5 +223,6 @@
         public TextBox genderPatientTextBox;
         public TextBox idPatientTextBox;
         private Label idPatientLabel;
+        private ErrorProvider validationErrorProvider;
     }
 }
