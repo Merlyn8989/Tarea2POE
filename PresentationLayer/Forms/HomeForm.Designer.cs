@@ -28,27 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DoctorsButton = new Button();
             SuspendLayout();
-            // 
-            // DoctorsButton
-            // 
-            DoctorsButton.BackColor = Color.FromArgb(21, 108, 108);
-            DoctorsButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            DoctorsButton.ForeColor = Color.White;
-            DoctorsButton.Location = new Point(260, 198);
-            DoctorsButton.Name = "DoctorsButton";
-            DoctorsButton.Size = new Size(280, 55);
-            DoctorsButton.TabIndex = 4;
-            DoctorsButton.Text = "Formulario Home";
-            DoctorsButton.UseVisualStyleBackColor = false;
             // 
             // HomeForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(DoctorsButton);
+            BackgroundImage = Properties.Resources.Home;
+            ClientSize = new Size(1210, 730);
             Name = "HomeForm";
             Text = "HomeForm";
             ResumeLayout(false);
