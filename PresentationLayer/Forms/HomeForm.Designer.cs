@@ -35,7 +35,11 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Home;
+<<<<<<< HEAD
             ClientSize = new Size(1110, 730);
+=======
+            ClientSize = new Size(1210, 730);
+>>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             Name = "HomeForm";
             Text = "HomeForm";
             ResumeLayout(false);

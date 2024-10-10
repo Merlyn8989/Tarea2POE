@@ -39,12 +39,16 @@
             CitasContainerMenu = new Panel();
             MenuCitasButton = new Button();
             Principalpanel = new Panel();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LogoPicture).BeginInit();
             panel1.SuspendLayout();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
             CitasContainerMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -144,7 +148,11 @@
             CitasContainerMenu.Location = new Point(0, 360);
             CitasContainerMenu.Margin = new Padding(0, 1, 0, 0);
             CitasContainerMenu.Name = "CitasContainerMenu";
+<<<<<<< HEAD
             CitasContainerMenu.Size = new Size(250, 46);
+=======
+            CitasContainerMenu.Size = new Size(250, 47);
+>>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             CitasContainerMenu.TabIndex = 5;
             // 
             // MenuCitasButton
@@ -152,13 +160,20 @@
             MenuCitasButton.BackColor = Color.FromArgb(21, 108, 108);
             MenuCitasButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             MenuCitasButton.ForeColor = Color.White;
+<<<<<<< HEAD
             MenuCitasButton.Location = new Point(-36, -5);
+=======
+            MenuCitasButton.Location = new Point(-36, -4);
+>>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             MenuCitasButton.Name = "MenuCitasButton";
             MenuCitasButton.Size = new Size(300, 55);
             MenuCitasButton.TabIndex = 2;
             MenuCitasButton.Text = "Citas";
             MenuCitasButton.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             MenuCitasButton.Click += MenuCitasButton_Click;
+=======
+>>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             // 
             // Principalpanel
             // 
@@ -170,13 +185,35 @@
             Principalpanel.Size = new Size(1128, 777);
             Principalpanel.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Home;
+            pictureBox1.Location = new Point(1128, 777);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(247, 215);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.Home;
+            pictureBox2.Location = new Point(253, 3);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(1128, 777);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 3;
+            pictureBox2.TabStop = false;
+            // 
             // DashboardForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1378, 777);
+            Controls.Add(pictureBox1);
             Controls.Add(Principalpanel);
             Controls.Add(flowLayoutPanel1);
+            Controls.Add(pictureBox2);
             Name = "DashboardForm";
             Text = "DashboardForm";
             flowLayoutPanel1.ResumeLayout(false);
@@ -185,6 +222,8 @@
             panel4.ResumeLayout(false);
             panel5.ResumeLayout(false);
             CitasContainerMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -201,5 +240,7 @@
         private Panel CitasContainerMenu;
         private Button MenuCitasButton;
         private Panel Principalpanel;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+<<<<<<< HEAD
             AppointmentsDataGridView = new DataGridView();
             AddAppointmentsbutton = new Button();
             UbdateAppointmentsButton = new Button();
@@ -45,6 +46,80 @@
             AppointmentsDataGridView.BorderStyle = BorderStyle.None;
             AppointmentsDataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
             AppointmentsDataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+=======
+            panel1 = new Panel();
+            doctorsTitleLabel = new Label();
+            doctorDeleteButton = new Button();
+            doctorUpdateButton = new Button();
+            doctorAddButton = new Button();
+            doctorsDataGridView = new DataGridView();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)doctorsDataGridView).BeginInit();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(21, 108, 108);
+            panel1.Controls.Add(doctorsTitleLabel);
+            panel1.Location = new Point(2, 35);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1107, 67);
+            panel1.TabIndex = 15;
+            // 
+            // doctorsTitleLabel
+            // 
+            doctorsTitleLabel.AutoSize = true;
+            doctorsTitleLabel.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            doctorsTitleLabel.ForeColor = SystemColors.Window;
+            doctorsTitleLabel.Location = new Point(53, 0);
+            doctorsTitleLabel.Name = "doctorsTitleLabel";
+            doctorsTitleLabel.Size = new Size(420, 54);
+            doctorsTitleLabel.TabIndex = 0;
+            doctorsTitleLabel.Text = "Medicals Appintments";
+            // 
+            // doctorDeleteButton
+            // 
+            doctorDeleteButton.BackColor = Color.FromArgb(21, 108, 108);
+            doctorDeleteButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            doctorDeleteButton.ForeColor = Color.White;
+            doctorDeleteButton.Location = new Point(830, 320);
+            doctorDeleteButton.Name = "doctorDeleteButton";
+            doctorDeleteButton.Size = new Size(223, 53);
+            doctorDeleteButton.TabIndex = 19;
+            doctorDeleteButton.Text = "Eliminar";
+            doctorDeleteButton.UseVisualStyleBackColor = false;
+            // 
+            // doctorUpdateButton
+            // 
+            doctorUpdateButton.BackColor = Color.FromArgb(21, 108, 108);
+            doctorUpdateButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            doctorUpdateButton.ForeColor = Color.White;
+            doctorUpdateButton.Location = new Point(830, 236);
+            doctorUpdateButton.Name = "doctorUpdateButton";
+            doctorUpdateButton.Size = new Size(223, 53);
+            doctorUpdateButton.TabIndex = 18;
+            doctorUpdateButton.Text = "Editar";
+            doctorUpdateButton.UseVisualStyleBackColor = false;
+            // 
+            // doctorAddButton
+            // 
+            doctorAddButton.BackColor = Color.FromArgb(21, 108, 108);
+            doctorAddButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            doctorAddButton.ForeColor = Color.White;
+            doctorAddButton.Location = new Point(830, 150);
+            doctorAddButton.Name = "doctorAddButton";
+            doctorAddButton.Size = new Size(223, 53);
+            doctorAddButton.TabIndex = 17;
+            doctorAddButton.Text = "Nueva Cita";
+            doctorAddButton.UseVisualStyleBackColor = false;
+            // 
+            // doctorsDataGridView
+            // 
+            doctorsDataGridView.BackgroundColor = SystemColors.Window;
+            doctorsDataGridView.BorderStyle = BorderStyle.None;
+            doctorsDataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
+            doctorsDataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+>>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = Color.Teal;
             dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -52,6 +127,7 @@
             dataGridViewCellStyle1.SelectionBackColor = Color.CadetBlue;
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.Window;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+<<<<<<< HEAD
             AppointmentsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             AppointmentsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             AppointmentsDataGridView.EnableHeadersVisualStyles = false;
@@ -122,6 +198,17 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1107, 67);
             panel1.TabIndex = 36;
+=======
+            doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            doctorsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            doctorsDataGridView.EnableHeadersVisualStyles = false;
+            doctorsDataGridView.GridColor = Color.Teal;
+            doctorsDataGridView.Location = new Point(27, 150);
+            doctorsDataGridView.Name = "doctorsDataGridView";
+            doctorsDataGridView.RowHeadersWidth = 51;
+            doctorsDataGridView.Size = new Size(755, 545);
+            doctorsDataGridView.TabIndex = 16;
+>>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             // 
             // AppointmentsForm
             // 
@@ -129,6 +216,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1110, 730);
             Controls.Add(panel1);
+<<<<<<< HEAD
             Controls.Add(DeleteAppointmentsButton);
             Controls.Add(UbdateAppointmentsButton);
             Controls.Add(AddAppointmentsbutton);
@@ -138,11 +226,23 @@
             ((System.ComponentModel.ISupportInitialize)AppointmentsDataGridView).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+=======
+            Controls.Add(doctorDeleteButton);
+            Controls.Add(doctorUpdateButton);
+            Controls.Add(doctorAddButton);
+            Controls.Add(doctorsDataGridView);
+            Name = "AppointmentsForm";
+            Text = "AppointmentsForm";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)doctorsDataGridView).EndInit();
+>>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             ResumeLayout(false);
         }
 
         #endregion
 
+<<<<<<< HEAD
 
         public DataGridView AppointmentsDataGridView;
         private Button AddAppointmentsbutton;
@@ -150,5 +250,13 @@
         private Button DeleteAppointmentsButton;
         private Label patientsTitleLabel;
         private Panel panel1;
+=======
+        private Panel panel1;
+        private Label doctorsTitleLabel;
+        private Button doctorDeleteButton;
+        private Button doctorUpdateButton;
+        private Button doctorAddButton;
+        private DataGridView doctorsDataGridView;
+>>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
     }
 }
