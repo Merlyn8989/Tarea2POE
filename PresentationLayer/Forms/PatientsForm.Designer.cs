@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             patientsDataGridView = new DataGridView();
             patientAddButton = new Button();
             patientUpdateButton = new Button();
@@ -45,14 +45,14 @@
             patientsDataGridView.BorderStyle = BorderStyle.None;
             patientsDataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
             patientsDataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.Teal;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle1.SelectionBackColor = Color.CadetBlue;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Window;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            patientsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.Teal;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle2.SelectionBackColor = Color.CadetBlue;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.Window;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            patientsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             patientsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             patientsDataGridView.EnableHeadersVisualStyles = false;
             patientsDataGridView.GridColor = Color.Teal;
@@ -71,7 +71,7 @@
             patientAddButton.Name = "patientAddButton";
             patientAddButton.Size = new Size(223, 53);
             patientAddButton.TabIndex = 7;
-            patientAddButton.Text = "New";
+            patientAddButton.Text = "Nuevo";
             patientAddButton.UseVisualStyleBackColor = false;
             patientAddButton.Click += patientAddButton_Click;
             // 
@@ -84,7 +84,7 @@
             patientUpdateButton.Name = "patientUpdateButton";
             patientUpdateButton.Size = new Size(223, 53);
             patientUpdateButton.TabIndex = 8;
-            patientUpdateButton.Text = "Edit";
+            patientUpdateButton.Text = "Editar";
             patientUpdateButton.UseVisualStyleBackColor = false;
             patientUpdateButton.Click += patientUpdateButton_Click;
             // 
@@ -97,7 +97,7 @@
             patientDeleteButton.Name = "patientDeleteButton";
             patientDeleteButton.Size = new Size(223, 53);
             patientDeleteButton.TabIndex = 9;
-            patientDeleteButton.Text = "Delete";
+            patientDeleteButton.Text = "Eliminar";
             patientDeleteButton.UseVisualStyleBackColor = false;
             patientDeleteButton.Click += patientDeleteButton_Click;
             // 

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             panel1 = new Panel();
             doctorsTitleLabel = new Label();
             doctorDeleteButton = new Button();
@@ -71,7 +71,7 @@
             doctorDeleteButton.Name = "doctorDeleteButton";
             doctorDeleteButton.Size = new Size(223, 53);
             doctorDeleteButton.TabIndex = 14;
-            doctorDeleteButton.Text = "Delete";
+            doctorDeleteButton.Text = "Eliminar";
             doctorDeleteButton.UseVisualStyleBackColor = false;
             doctorDeleteButton.Click += doctorDeleteButton_Click;
             // 
@@ -84,7 +84,7 @@
             doctorUpdateButton.Name = "doctorUpdateButton";
             doctorUpdateButton.Size = new Size(223, 53);
             doctorUpdateButton.TabIndex = 13;
-            doctorUpdateButton.Text = "Edit";
+            doctorUpdateButton.Text = "Editar";
             doctorUpdateButton.UseVisualStyleBackColor = false;
             doctorUpdateButton.Click += doctorUpdateButton_Click;
             // 
@@ -97,7 +97,7 @@
             doctorAddButton.Name = "doctorAddButton";
             doctorAddButton.Size = new Size(223, 53);
             doctorAddButton.TabIndex = 12;
-            doctorAddButton.Text = "New";
+            doctorAddButton.Text = "Nuevo";
             doctorAddButton.UseVisualStyleBackColor = false;
             doctorAddButton.Click += doctorAddButton_Click_1;
             // 
@@ -107,14 +107,14 @@
             doctorsDataGridView.BorderStyle = BorderStyle.None;
             doctorsDataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
             doctorsDataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.Teal;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle1.SelectionBackColor = Color.CadetBlue;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Window;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.Teal;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle2.SelectionBackColor = Color.CadetBlue;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.Window;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             doctorsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             doctorsDataGridView.EnableHeadersVisualStyles = false;
             doctorsDataGridView.GridColor = Color.Teal;
