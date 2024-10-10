@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panel1 = new Panel();
             doctorsTitleLabel = new Label();
@@ -35,8 +36,10 @@
             doctorUpdateButton = new Button();
             doctorAddButton = new Button();
             doctorsDataGridView = new DataGridView();
+            bindingSource1 = new BindingSource(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)doctorsDataGridView).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -136,6 +139,7 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)doctorsDataGridView).EndInit();
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
         }
 
@@ -147,5 +151,6 @@
         private Button doctorUpdateButton;
         private DataGridView doctorsDataGridView;
         private Button doctorAddButton;
+        private BindingSource bindingSource1;
     }
 }

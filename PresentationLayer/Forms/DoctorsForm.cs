@@ -15,12 +15,14 @@ namespace PresentationLayer.Forms
 {
     public partial class DoctorsForm : Form
     {
-        private DoctorService _doctorService;
 
+        private DoctorService _doctorService;
         public DoctorsForm()
         {
             InitializeComponent();
             _doctorService = new DoctorService();
+
+            doctorsDataGridView.DataSource = _doctorService.GetAllDoctors();
         }
 
 

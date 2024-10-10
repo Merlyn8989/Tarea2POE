@@ -24,11 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Validations\" />
+    <ProjectReference Include="..\BussisnesLayer\BussisnesLayer.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BussisnesLayer\BussisnesLayer.csproj" />
+    <Folder Include="Validations\" />
   </ItemGroup>
 
 </Project>
