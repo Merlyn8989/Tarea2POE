@@ -17,7 +17,7 @@ namespace DataAccessLayer.DbConnection
             //no borren esta
             //_connectionString = "Data Source=MERLYNRAJO\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Encrypt=False";
 
-            _connectionString = "Data Source=LAPTOP-KFDQNCRJ\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Trust Server Certificate=True";
+            _connectionString = "Data Source=YONATAN-CHICAS\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Trust Server Certificate=True";
            
         }
 

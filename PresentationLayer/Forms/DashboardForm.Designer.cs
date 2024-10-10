@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             flowLayoutPanel1 = new FlowLayoutPanel();
             LogoPicture = new PictureBox();
             panel1 = new Panel();
@@ -39,9 +38,6 @@
             DoctorsButton = new Button();
             CitasContainerMenu = new Panel();
             MenuCitasButton = new Button();
-            button4 = new Button();
-            button6 = new Button();
-            TransitionTimer = new System.Windows.Forms.Timer(components);
             Principalpanel = new Panel();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LogoPicture).BeginInit();
@@ -145,12 +141,10 @@
             // 
             CitasContainerMenu.BackColor = Color.FromArgb(14, 44, 44);
             CitasContainerMenu.Controls.Add(MenuCitasButton);
-            CitasContainerMenu.Controls.Add(button4);
-            CitasContainerMenu.Controls.Add(button6);
             CitasContainerMenu.Location = new Point(0, 360);
             CitasContainerMenu.Margin = new Padding(0, 1, 0, 0);
             CitasContainerMenu.Name = "CitasContainerMenu";
-            CitasContainerMenu.Size = new Size(250, 45);
+            CitasContainerMenu.Size = new Size(250, 46);
             CitasContainerMenu.TabIndex = 5;
             // 
             // MenuCitasButton
@@ -158,7 +152,7 @@
             MenuCitasButton.BackColor = Color.FromArgb(21, 108, 108);
             MenuCitasButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             MenuCitasButton.ForeColor = Color.White;
-            MenuCitasButton.Location = new Point(-36, -6);
+            MenuCitasButton.Location = new Point(-36, -5);
             MenuCitasButton.Name = "MenuCitasButton";
             MenuCitasButton.Size = new Size(300, 55);
             MenuCitasButton.TabIndex = 2;
@@ -166,39 +160,10 @@
             MenuCitasButton.UseVisualStyleBackColor = false;
             MenuCitasButton.Click += MenuCitasButton_Click;
             // 
-            // button4
-            // 
-            button4.BackColor = Color.FromArgb(21, 81, 81);
-            button4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.White;
-            button4.Location = new Point(-16, 45);
-            button4.Margin = new Padding(0);
-            button4.Name = "button4";
-            button4.Size = new Size(280, 53);
-            button4.TabIndex = 3;
-            button4.Text = "Agendar Cita";
-            button4.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            button6.BackColor = Color.FromArgb(21, 81, 81);
-            button6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button6.ForeColor = Color.White;
-            button6.Location = new Point(-16, 92);
-            button6.Margin = new Padding(0);
-            button6.Name = "button6";
-            button6.Size = new Size(280, 55);
-            button6.TabIndex = 4;
-            button6.Text = "Historial de citas";
-            button6.UseVisualStyleBackColor = false;
-            // 
-            // TransitionTimer
-            // 
-            TransitionTimer.Interval = 10;
-            // 
             // Principalpanel
             // 
             Principalpanel.BackColor = Color.Transparent;
+            Principalpanel.BackgroundImage = Properties.Resources.Home;
             Principalpanel.Dock = DockStyle.Fill;
             Principalpanel.Location = new Point(250, 0);
             Principalpanel.Name = "Principalpanel";
@@ -209,7 +174,6 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.backgorund;
             ClientSize = new Size(1378, 777);
             Controls.Add(Principalpanel);
             Controls.Add(flowLayoutPanel1);
@@ -235,10 +199,7 @@
         private Panel panel5;
         private Button DoctorsButton;
         private Panel CitasContainerMenu;
-        private Button button6;
-        private Button button4;
         private Button MenuCitasButton;
-        private System.Windows.Forms.Timer TransitionTimer;
         private Panel Principalpanel;
     }
 }

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             patientsDataGridView = new DataGridView();
             patientAddButton = new Button();
             patientUpdateButton = new Button();
@@ -45,14 +45,14 @@
             patientsDataGridView.BorderStyle = BorderStyle.None;
             patientsDataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
             patientsDataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.Teal;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle2.SelectionBackColor = Color.CadetBlue;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.Window;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            patientsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.Teal;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = Color.CadetBlue;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Window;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            patientsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             patientsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             patientsDataGridView.EnableHeadersVisualStyles = false;
             patientsDataGridView.GridColor = Color.Teal;
@@ -117,9 +117,9 @@
             patientsTitleLabel.ForeColor = SystemColors.Window;
             patientsTitleLabel.Location = new Point(53, 0);
             patientsTitleLabel.Name = "patientsTitleLabel";
-            patientsTitleLabel.Size = new Size(174, 54);
+            patientsTitleLabel.Size = new Size(188, 54);
             patientsTitleLabel.TabIndex = 0;
-            patientsTitleLabel.Text = "Patients ";
+            patientsTitleLabel.Text = "Pacientes";
             // 
             // PatientsForm
             // 

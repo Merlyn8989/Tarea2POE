@@ -43,6 +43,7 @@
             idPatientTextBox = new TextBox();
             idPatientLabel = new Label();
             validationErrorProvider = new ErrorProvider(components);
+            patientsTitleLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)validationErrorProvider).BeginInit();
             SuspendLayout();
             // 
@@ -181,12 +182,24 @@
             // 
             validationErrorProvider.ContainerControl = this;
             // 
+            // patientsTitleLabel
+            // 
+            patientsTitleLabel.AutoSize = true;
+            patientsTitleLabel.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            patientsTitleLabel.ForeColor = SystemColors.Window;
+            patientsTitleLabel.Location = new Point(225, 9);
+            patientsTitleLabel.Name = "patientsTitleLabel";
+            patientsTitleLabel.Size = new Size(188, 54);
+            patientsTitleLabel.TabIndex = 35;
+            patientsTitleLabel.Text = "Pacientes";
+            // 
             // PatientModalForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(21, 108, 108);
             ClientSize = new Size(571, 458);
+            Controls.Add(patientsTitleLabel);
             Controls.Add(idPatientTextBox);
             Controls.Add(idPatientLabel);
             Controls.Add(titleLabel);
@@ -224,5 +237,6 @@
         public TextBox idPatientTextBox;
         private Label idPatientLabel;
         private ErrorProvider validationErrorProvider;
+        private Label patientsTitleLabel;
     }
 }
