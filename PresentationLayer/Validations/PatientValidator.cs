@@ -8,7 +8,7 @@ using FluentValidation;
 
 namespace PresentationLayer.Validations
 {
-    public class PatientValidator : AbstractValidator<Doctor>
+    public class PatientValidator : AbstractValidator<Patient>
     {
         public PatientValidator() 
         {

@@ -1,5 +1,7 @@
 ﻿using BussisnesLayer.Services;
 using CommonLayer.Entities;
+using FluentValidation.Results;
+using PresentationLayer.Validations;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,6 +22,8 @@ namespace PresentationLayer.Forms
         public Doctor Doctor { get; set; }
 
         public Doctor DoctorData { get; set; }
+
+        private ErrorProvider validationErrorDoctorProvider = new ErrorProvider();
         public DoctorModalForm(DoctorsForm doctorsForm)
         {
             InitializeComponent();
@@ -39,6 +43,7 @@ namespace PresentationLayer.Forms
             {
                 textDoctor.Text = "Agregar Doctor";
             }
+            validationErrorDoctorProvider.BlinkStyle = ErrorBlinkStyle.NeverBlink;
         }
 
         private void doctorSaveButton_Click(object sender, EventArgs e)
@@ -62,18 +67,44 @@ namespace PresentationLayer.Forms
             }
             else
             {
-                Doctor doctor = new Doctor()
+                Doctor doctor = new Doctor();
+                doctor.FirstName = nameDoctorTextBox.Text;
+                doctor.Specialty = specialtyDoctorTextBox.Text;
+
+                DoctorValidator doctorValidator = new DoctorValidator();
+                ValidationResult result = doctorValidator.Validate(doctor);
+
+                if (!result.IsValid)
                 {
-                    FirstName = nameDoctorTextBox.Text,
-                    Specialty = specialtyDoctorTextBox.Text
-                };
+                    DisplayValidatorErrors(result);
+                }
+                else
+                {
+                    _doctorService.AddDoctor(doctor);
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+                
+            }  
 
-                _doctorService.AddDoctor(doctor);
+        }
 
+        private void DisplayValidatorErrors(ValidationResult result)
+        {
+            validationErrorDoctorProvider.Clear();
+
+            foreach (var error  in result.Errors)
+            {
+                switch (error.PropertyName) 
+                {
+                    case nameof(Doctor.FirstName):
+                        validationErrorDoctorProvider.SetError(nameDoctorTextBox, error.ErrorMessage);
+                        break;
+                    case nameof(Doctor.Specialty):
+                        validationErrorDoctorProvider.SetError(specialtyDoctorTextBox, error.ErrorMessage);
+                        break;
+                }
             }
-            this.DialogResult = DialogResult.OK;
-            this.Close();
-
         }
     }
 }

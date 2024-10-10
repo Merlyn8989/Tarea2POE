@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             specialtyDoctorTextBox = new TextBox();
             specialtyDoctorLabel = new Label();
             nameDoctorTextBox = new TextBox();
@@ -37,6 +38,8 @@
             textDoctor = new Label();
             idDoctorTextBox = new TextBox();
             idDoctorLabel = new Label();
+            ErrorDoctorProvider = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)ErrorDoctorProvider).BeginInit();
             SuspendLayout();
             // 
             // specialtyDoctorTextBox
@@ -131,6 +134,10 @@
             idDoctorLabel.TabIndex = 29;
             idDoctorLabel.Text = "Id:";
             // 
+            // ErrorDoctorProvider
+            // 
+            ErrorDoctorProvider.ContainerControl = this;
+            // 
             // DoctorModalForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -148,6 +155,7 @@
             Controls.Add(doctorCancelButton);
             Name = "DoctorModalForm";
             Text = "DoctorModalForm";
+            ((System.ComponentModel.ISupportInitialize)ErrorDoctorProvider).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -162,5 +170,6 @@
         public TextBox specialtyDoctorTextBox;
         public TextBox idDoctorTextBox;
         private Label idDoctorLabel;
+        private ErrorProvider ErrorDoctorProvider;
     }
 }
