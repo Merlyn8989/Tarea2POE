@@ -1,7 +1,16 @@
-﻿namespace PresentationLayer.Forms
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace PresentationLayer.Forms
 {
-    partial class DashboardForm
+    public partial class DashboardForm : Form
     {
+        public DashboardForm()
+        {
+            InitializeComponent();
+        }
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -148,11 +157,7 @@
             CitasContainerMenu.Location = new Point(0, 360);
             CitasContainerMenu.Margin = new Padding(0, 1, 0, 0);
             CitasContainerMenu.Name = "CitasContainerMenu";
-<<<<<<< HEAD
-            CitasContainerMenu.Size = new Size(250, 46);
-=======
             CitasContainerMenu.Size = new Size(250, 47);
->>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             CitasContainerMenu.TabIndex = 5;
             // 
             // MenuCitasButton
@@ -160,20 +165,13 @@
             MenuCitasButton.BackColor = Color.FromArgb(21, 108, 108);
             MenuCitasButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             MenuCitasButton.ForeColor = Color.White;
-<<<<<<< HEAD
             MenuCitasButton.Location = new Point(-36, -5);
-=======
-            MenuCitasButton.Location = new Point(-36, -4);
->>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             MenuCitasButton.Name = "MenuCitasButton";
             MenuCitasButton.Size = new Size(300, 55);
             MenuCitasButton.TabIndex = 2;
             MenuCitasButton.Text = "Citas";
             MenuCitasButton.UseVisualStyleBackColor = false;
-<<<<<<< HEAD
             MenuCitasButton.Click += MenuCitasButton_Click;
-=======
->>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
             // 
             // Principalpanel
             // 
@@ -244,3 +242,4 @@
         private PictureBox pictureBox2;
     }
 }
+

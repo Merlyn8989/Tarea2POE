@@ -14,13 +14,7 @@ namespace DataAccessLayer.DbConnection
 
         public SqlDataAccess()
         {
-            //no borren esta
-<<<<<<< HEAD
-            _connectionString = "Data Source=YONATAN-CHICAS\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Trust Server Certificate=True";
-=======
-            //_connectionString = "Data Source=MERLYNRAJO\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Encrypt=False";
->>>>>>> c855e63af62b9a3352f20f30f520ff3cd8d7a2a3
-
+            
             _connectionString = "Data Source=YONATAN-CHICAS\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Trust Server Certificate=True";
            
         }

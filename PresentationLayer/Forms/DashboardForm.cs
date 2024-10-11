@@ -16,13 +16,6 @@ namespace PresentationLayer.Forms
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
-
-
-=======
-       
-        
->>>>>>> 0533192f96ffacaf2b496e433d87d41693b467d4
         private Form activeForm = null;
 
         private void openChildForm(Form childForm)
