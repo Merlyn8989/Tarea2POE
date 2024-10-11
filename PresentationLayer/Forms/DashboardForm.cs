@@ -12,10 +12,7 @@ namespace PresentationLayer.Forms
 {
     public partial class DashboardForm : Form
     {
-        public DashboardForm()
-        {
-            InitializeComponent();
-        }
+
         private Form activeForm = null;
 
         private void openChildForm(Form childForm)

@@ -15,7 +15,7 @@ namespace DataAccessLayer.DbConnection
         public SqlDataAccess()
         {
             
-            _connectionString = "Data Source=YONATAN-CHICAS\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Trust Server Certificate=True";
+            _connectionString = "Data Source=LAPTOP-KFDQNCRJ\\SQLEXPRESS;Initial Catalog=PatientManagement;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
            
         }
 

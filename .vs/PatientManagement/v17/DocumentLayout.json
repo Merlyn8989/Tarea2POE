@@ -1,14 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chica\\Desktop\\TAREA 2 - POE\\TAREA 2 - POE\\Tarea2POE\\Tarea2POE\\",
+  "WorkspaceRootPath": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\chica\\desktop\\tarea 2 - poe\\tarea 2 - poe\\tarea2poe\\tarea2poe\\presentationlayer\\forms\\appointmentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\presentationlayer\\forms\\appointmentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\appointmentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\chica\\desktop\\tarea 2 - poe\\tarea 2 - poe\\tarea2poe\\tarea2poe\\presentationlayer\\forms\\appointmentsmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\presentationlayer\\forms\\appointmentsmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\appointmentsmodalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\tarea2poe\\presentationlayer\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\tarea2poe\\presentationlayer\\forms\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\tarea2poe\\dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093BA8C4-8B39-4E64-BBDA-4246670AADCA}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\presentationlayer\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A72C10ED-F2E4-481D-9B65-5EEF1CCB44F7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orlando Z\u00FAniga\\AppData\\Local\\SourceServer\\a361a1df60ec6203c04f479b01f0330c5e25ac1b67efbbf636b8b697f545caac\\PresentationLayer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orlando Z\u00FAniga\\AppData\\Local\\SourceServer\\6075166ae19689633162541bc64bb9640abfdb31136f4403a2192338f7f49545\\DataAccessLayer\\Repositories\\PatientsRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +40,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,12 +48,63 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\DashboardForm.cs",
+              "RelativeToolTip": "PresentationLayer\\Forms\\DashboardForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:49:07.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\DashboardForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\Forms\\DashboardForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:48:52.93Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\AppData\\Local\\SourceServer\\6075166ae19689633162541bc64bb9640abfdb31136f4403a2192338f7f49545\\DataAccessLayer\\Repositories\\PatientsRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\6075166ae19689633162541bc64bb9640abfdb31136f4403a2192338f7f49545\\DataAccessLayer\\Repositories\\PatientsRepository.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\AppData\\Local\\SourceServer\\6075166ae19689633162541bc64bb9640abfdb31136f4403a2192338f7f49545\\DataAccessLayer\\Repositories\\PatientsRepository.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\6075166ae19689633162541bc64bb9640abfdb31136f4403a2192338f7f49545\\DataAccessLayer\\Repositories\\PatientsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:48:33.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SqlDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+              "RelativeToolTip": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:47:23.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AppointmentsForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\chica\\Desktop\\TAREA 2 - POE\\TAREA 2 - POE\\Tarea2POE\\Tarea2POE\\PresentationLayer\\Forms\\AppointmentsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\AppointmentsForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Forms\\AppointmentsForm.cs",
-              "ToolTip": "C:\\Users\\chica\\Desktop\\TAREA 2 - POE\\TAREA 2 - POE\\Tarea2POE\\Tarea2POE\\PresentationLayer\\Forms\\AppointmentsForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Forms\\AppointmentsForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\AppointmentsForm.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "PresentationLayer\\Forms\\AppointmentsForm.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T02:19:56.226Z",
               "EditorCaption": " [Dise\u00F1o]"
@@ -40,13 +113,39 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AppointmentsModalForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\chica\\Desktop\\TAREA 2 - POE\\TAREA 2 - POE\\Tarea2POE\\Tarea2POE\\PresentationLayer\\Forms\\AppointmentsModalForm.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\AppointmentsModalForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Forms\\AppointmentsModalForm.cs",
-              "ToolTip": "C:\\Users\\chica\\Desktop\\TAREA 2 - POE\\TAREA 2 - POE\\Tarea2POE\\Tarea2POE\\PresentationLayer\\Forms\\AppointmentsModalForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\AppointmentsModalForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\Forms\\AppointmentsModalForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T02:19:52.25Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\DashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Forms\\DashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\Tarea2POE\\PresentationLayer\\Forms\\DashboardForm.Designer.cs",
+              "RelativeToolTip": "PresentationLayer\\Forms\\DashboardForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:51:44.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\AppData\\Local\\SourceServer\\a361a1df60ec6203c04f479b01f0330c5e25ac1b67efbbf636b8b697f545caac\\PresentationLayer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\a361a1df60ec6203c04f479b01f0330c5e25ac1b67efbbf636b8b697f545caac\\PresentationLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\AppData\\Local\\SourceServer\\a361a1df60ec6203c04f479b01f0330c5e25ac1b67efbbf636b8b697f545caac\\PresentationLayer\\Program.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\a361a1df60ec6203c04f479b01f0330c5e25ac1b67efbbf636b8b697f545caac\\PresentationLayer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:55:08.699Z",
+              "EditorCaption": ""
             }
           ]
         }

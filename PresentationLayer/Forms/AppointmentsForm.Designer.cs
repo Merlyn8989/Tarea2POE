@@ -56,10 +56,10 @@
             AppointmentsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             AppointmentsDataGridView.EnableHeadersVisualStyles = false;
             AppointmentsDataGridView.GridColor = Color.Teal;
-            AppointmentsDataGridView.Location = new Point(55, 140);
+            AppointmentsDataGridView.Location = new Point(47, 140);
             AppointmentsDataGridView.Name = "AppointmentsDataGridView";
             AppointmentsDataGridView.RowHeadersWidth = 51;
-            AppointmentsDataGridView.Size = new Size(751, 545);
+            AppointmentsDataGridView.Size = new Size(799, 545);
             AppointmentsDataGridView.TabIndex = 11;
             // 
             // AddAppointmentsbutton
@@ -67,7 +67,7 @@
             AddAppointmentsbutton.BackColor = Color.FromArgb(21, 108, 108);
             AddAppointmentsbutton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             AddAppointmentsbutton.ForeColor = Color.White;
-            AddAppointmentsbutton.Location = new Point(825, 140);
+            AddAppointmentsbutton.Location = new Point(869, 140);
             AddAppointmentsbutton.Name = "AddAppointmentsbutton";
             AddAppointmentsbutton.Size = new Size(223, 53);
             AddAppointmentsbutton.TabIndex = 15;
@@ -80,7 +80,7 @@
             UbdateAppointmentsButton.BackColor = Color.FromArgb(21, 108, 108);
             UbdateAppointmentsButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             UbdateAppointmentsButton.ForeColor = Color.White;
-            UbdateAppointmentsButton.Location = new Point(825, 229);
+            UbdateAppointmentsButton.Location = new Point(869, 229);
             UbdateAppointmentsButton.Name = "UbdateAppointmentsButton";
             UbdateAppointmentsButton.Size = new Size(223, 53);
             UbdateAppointmentsButton.TabIndex = 16;
@@ -93,7 +93,7 @@
             DeleteAppointmentsButton.BackColor = Color.FromArgb(21, 108, 108);
             DeleteAppointmentsButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             DeleteAppointmentsButton.ForeColor = Color.White;
-            DeleteAppointmentsButton.Location = new Point(825, 312);
+            DeleteAppointmentsButton.Location = new Point(869, 312);
             DeleteAppointmentsButton.Name = "DeleteAppointmentsButton";
             DeleteAppointmentsButton.Size = new Size(223, 53);
             DeleteAppointmentsButton.TabIndex = 17;
