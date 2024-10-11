@@ -66,10 +66,10 @@ namespace PresentationLayer.Forms
         }
 
 
-       
+
         private void Homebutton_Click(object sender, EventArgs e)
         {
-            openChildForm (new HomeForm());
+            openChildForm(new HomeForm());
         }
 
         private void PatientsButton_Click(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace PresentationLayer.Forms
 
         private void DoctorsButton_Click(object sender, EventArgs e)
         {
-            openChildForm(new DoctorsForm());  
+            openChildForm(new DoctorsForm());
 
         }
     }
